@@ -8,7 +8,7 @@ overrides:
   undici@>=7.28.0 <7.29.1: 7.29.1
   '@babel/core': 7.29.6
   '@scalar/json-magic>undici': ^7.29.0
-  remark-mdx-frontmatter>toml: ^4.2.0
+  remark-mdx-frontmatter>toml: ^5.0.1
 
 importers:
 
@@ -4707,8 +4707,8 @@ packages:
     resolution: {integrity: sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==}
     engines: {node: '>=0.6'}
 
-  toml@4.3.0:
-    resolution: {integrity: sha512-lVb8X9BsPVuH0M4BKeS91tXAmJvCjQ5UIyAbQFaxkKGyUFK2RPkhwaFSQH8vbpl1d23eu/IBH+dwVMHWaq9A5A==}
+  toml@5.0.1:
+    resolution: {integrity: sha512-EqYNA/YvUNndrA2B3O2ojzLQoTQrBxeZ9UIjQwk8t10oe6n7dwclBwd9IdZQTOKwe6vWX+AXtl6IntXRbepdxQ==}
     engines: {node: '>=20'}
 
   trim-lines@3.0.1:
@@ -9879,7 +9879,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       estree-util-value-to-estree: 3.5.0
-      toml: 4.3.0
+      toml: 5.0.1
       unified: 11.0.5
       unist-util-mdx-define: 1.1.2
       yaml: 2.9.1
@@ -10295,7 +10295,7 @@ snapshots:
 
   toidentifier@1.0.1: {}
 
-  toml@4.3.0: {}
+  toml@5.0.1: {}
 
   trim-lines@3.0.1: {}
 
